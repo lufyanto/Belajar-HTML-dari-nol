@@ -1,0 +1,17 @@
+img ~ p{
+    color: snow;
+    background-color: red;
+}
+
+/* + itu untuk 1 objek sesudahnya saja
+/* ~ untuk seluruhnya selagi tidak dibungkus oleh SPAN/DIV
+
+*/
+div > p {
+    color: gold;
+    background-color: aquamarine;
+}
+
+div p {
+    color: blue;
+}
