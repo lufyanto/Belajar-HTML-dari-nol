@@ -1,0 +1,50 @@
+body{
+    font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+    background-color: rgba(241, 216, 184, 0.496);
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', Arial Narrow, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.p1{
+    color: blue;
+    text-align: right;
+  
+}
+
+.p2{
+    color: chocolate;
+    text-align: left;
+}
+
+.p3{
+    color: cornflowerblue;
+    text-align: center;
+}
+.p4{
+    color: rgb(247, 0, 0);
+    text-align: justify;
+}
+
+.p1,.p2,.p3,.p4{
+      border: 3px solid black;
+      border-radius: 0%;
+}
+
+.Messi{
+    text-decoration: none;
+}
+
+.panjang{
+    text-transform: capitalize ;
+    box-shadow: 4px 4px 4px 0px;
+    background-color: darksalmon;
+    color: bisque;
+    text-shadow: 4px 4px 7px rgb(252, 181, 60);
+}

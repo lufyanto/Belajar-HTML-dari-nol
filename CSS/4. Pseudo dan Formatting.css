@@ -1,0 +1,30 @@
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: red;
+}
+
+blockquote::before,
+blockquote::after{
+    content: '"';
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+h4::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    color: crimson;
+}
