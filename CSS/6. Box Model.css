@@ -1,0 +1,67 @@
+.var{
+    width: 500px;
+    height: 400px;
+    min-width: 600px;
+    background-color: aqua;
+}
+
+.par{
+    width: 80%;
+    height: 80%;
+    background-color: gold;
+    text-align: auto;
+}
+
+/* BORDER BOX */
+
+.ayano{
+    width: 300px;
+    height: 200px;
+    border-width: 5px;
+    border-color: crimson;
+    border-style: double;
+}
+
+.pad{
+    border: 7px blue solid;
+    padding: 50px;
+}
+
+.mar1{
+    border: 3px rgb(89, 219, 255) solid;
+    margin: 20px 20px 20px 15px;
+}
+.mar2{
+    border: 3px rgb(89, 219, 255) solid;
+    margin: 20px 20px 20px 15px;
+}
+
+.teng,
+.teng.before,
+.teng.after{
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    content: '"';
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+li{
+    text-decoration: none;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    display: inline;
+    margin-left: 10px;
+}
+
+.Kotak{
+    width: 500px;
+    height: 250px;
+    background-color: lightpink;
+    margin: 0 auto;
+
+    /*BOX SHADOW*/
+    box-shadow: 5px 5px 5px 10px gray;
+}
