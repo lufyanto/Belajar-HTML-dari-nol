@@ -1,0 +1,50 @@
+.kotak1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.kotak2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.kotak3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.kotak1,
+.kotak2,
+.kotak3{
+    margin-top: 10px;
+}
+
+.par{
+    background-color: blanchedalmond;
+    padding: 30px;
+}
+
+.kal{
+    width: 450px;
+}
+
+.rel {
+    position: relative;
+    margin-top: 10px;
+    left: 100px;
+}
+
+.abl {
+    position: absolute;
+    left: 500px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 2000px;
+    background-color: crimson;
+}
