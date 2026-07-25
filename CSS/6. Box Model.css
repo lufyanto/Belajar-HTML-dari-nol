@@ -65,3 +65,11 @@ li{
     /*BOX SHADOW*/
     box-shadow: 5px 5px 5px 10px gray;
 }
+
+.koji{
+    width: 300px;
+    height: 300px;
+    border: 2px magenta solid;
+    text-align: center;
+    border-radius: 10px;
+}
