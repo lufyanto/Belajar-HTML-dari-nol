@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBiniGueh</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <!-- Ini adalah Kerangka Navbar -->
+     <!-- Di dalam navba ada container(list, tombol)-->
+    <nav class="navbar">
+
+        <div class="container">
+            <a href="#" class="logo">My Bini Gueh</a>
+
+            <ul class="list">
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 1</a></li>
+            </ul>
+
+            <div class="tombol">
+                &#9776;
+            </div>
+        </div>
+    </nav>
+</body>
+<!-- Script Websiten -->
+ <script type="text/javascript">
+    // Deklarasi Tombol
+    const tombol = document.querySelector('.tombol');
+    const list = document.querySelector('.list');
+
+    tombol.addEventListener('click', () => {
+        list.classList.toggle('aktif');
+    });
+ </script>
+</html>
